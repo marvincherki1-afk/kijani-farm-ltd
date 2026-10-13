@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kijani Fresh Farm | Fresh farm produce, eggs and milk in Nakuru Town</title>
+  <meta name="description" content="Kijani Fresh Farm, Nakuru Town. Vegetables, fruit, eggs, fresh milk and farm chicken with delivery. Order on WhatsApp.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+  <!-- 1. HEADER: badge and name -->
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="Kijani Fresh Farm home"><span class="mono">KF</span><span class="brand-name">Kijani Fresh Farm</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#services">Produce</a>
+      <a href="#gallery">Farm life</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. HERO: add your photo as images/hero.jpg -->
+    <section class="hero" id="home">
+      <img src="images/hero.jpg" alt="Kijani Fresh Farm" class="hero-img" onerror="this.remove()">
+      <div class="hero-text">
+        <h1>Fresh from our farm to your table.</h1>
+        <p>Vegetables, fruit, eggs, fresh milk and farm chicken, grown with care. We deliver in Nakuru Town. Open Monday to Saturday, 7am to 6pm.</p>
+        <a class="btn" href="#order">Order fresh</a>
+        <a class="btn ghost" href="#services">See prices</a>
+        <a class="btn ghost" href="#contact">Contact us</a>
+      </div>
+    </section>
+
+    <!-- 3. MAIN PRODUCTS OR SERVICES -->
+    <section class="section" id="services">
+      <h2>Farm produce and prices</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/vegetables.jpg" alt="Fresh vegetables" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Fresh vegetables</h3><span class="price">from KES 20</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Fresh%20vegetables." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/fruit.jpg" alt="Fresh fruit" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Fresh fruit</h3><span class="price">from KES 100</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Fresh%20fruit." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/eggs.jpg" alt="Farm eggs" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Farm eggs</h3><span class="price">KES 450 a tray</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Farm%20eggs." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/milk.jpg" alt="Fresh milk" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Fresh milk</h3><span class="price">KES 70 a litre</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Fresh%20milk." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/chicken.jpg" alt="Farm chicken" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Farm chicken</h3><span class="price">from KES 800</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Farm%20chicken." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/seedlings.jpg" alt="Seedlings" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Seedlings</h3><span class="price">from KES 10</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Seedlings." target="_blank" rel="noopener">Order on WhatsApp</a></div>
+        </article>
+      </div>
+      <h3 class="more-title">Today's price list</h3>
+      <ul class="price-list">
+        <li><span class="svc">Eggs, tray of 30</span><span class="price">KES 450</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Eggs%2C%20tray%20of%2030." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+        <li><span class="svc">Fresh milk (per litre)</span><span class="price">KES 70</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Fresh%20milk%20%28per%20litre%29." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+        <li><span class="svc">Tomatoes (per kg)</span><span class="price">KES 100</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Tomatoes%20%28per%20kg%29." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+        <li><span class="svc">Onions (per kg)</span><span class="price">KES 120</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Onions%20%28per%20kg%29." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+        <li><span class="svc">Kale / sukuma wiki (bunch)</span><span class="price">KES 20</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Kale%20/%20sukuma%20wiki%20%28bunch%29." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+        <li><span class="svc">Farm chicken (each)</span><span class="price">KES 800</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20order%20Farm%20chicken%20%28each%29." target="_blank" rel="noopener">Order on WhatsApp</a></li>
+      </ul>
+    </section>
+
+    <!-- 4. GALLERY -->
+    <section class="section alt" id="gallery">
+      <h2>Life on the farm</h2>
+      <div class="gallery">
+        <img src="images/g1.jpg" alt="Farm photo 1" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g2.jpg" alt="Farm photo 2" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g3.jpg" alt="Farm photo 3" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g4.jpg" alt="Farm photo 4" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      </div>
+    </section>
+
+    <!-- 5. REVIEWS -->
+    <section class="section" id="reviews">
+      <h2>What customers say</h2>
+      <blockquote>The eggs and milk are always fresh, and delivery is on time.<cite>Wanjiru, customer</cite></blockquote>
+      <blockquote>Best vegetables in Nakuru. My family will not buy from anywhere else.<cite>Peter, customer</cite></blockquote>
+    </section>
+
+    <!-- 6. FORM -->
+    <section class="section alt" id="order">
+      <h2>Place an order on WhatsApp</h2>
+      <form id="bookForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" required>
+        <label for="need">What would you like to order? (items and quantity)</label>
+        <textarea id="need" class="q" data-label="What would you like to order? (items and quantity)" rows="4" required></textarea>
+        <label for="place">Delivery area in Nakuru</label>
+        <input type="text" id="place" class="q" data-label="Delivery area in Nakuru" required>
+        <button type="submit" class="btn">Send on WhatsApp</button>
+        <p id="formMsg" role="status"></p>
+      </form>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact us</h2>
+      <p class="contact-line"><strong>Address:</strong> Nakuru Town (add your street here)</p>
+      <p class="contact-line"><strong>Phone:</strong> 0789 509 623</p>
+      <p class="contact-line"><strong>Hours:</strong> Monday to Saturday, 7am to 6pm (delivery in Nakuru Town)</p>
+      <p class="contact-actions">
+        <a class="btn" href="tel:+254789509623">Call us</a>
+        <a class="btn-wa" href="https://wa.me/254789509623" target="_blank" rel="noopener">WhatsApp us</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="mono">KF</span><span class="brand-name">Kijani Fresh Farm</span></div>
+    <p>Kijani Fresh Farm, Nakuru Town</p>
+    <p>Phone: 0789 509 623</p>
+  </footer>
+
+  <!-- 9. FLOATING BUTTONS -->
+  <div class="float-btns" style="position:fixed;right:14px;bottom:14px;display:flex;flex-direction:column;gap:10px;z-index:9999">
+    <a class="fab call" href="tel:+254789509623" aria-label="Call Kijani Fresh Farm"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25c1.1.37 2.3.57 3.6.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.58a1 1 0 01-.25 1l-2.2 2.2z"/></svg><span>Call us</span></a>
+    <a class="fab wa" href="https://wa.me/254789509623?text=Hello%20Kijani%20Fresh%20Farm%2C%20I%20would%20like%20to%20ask%20a%20question." target="_blank" rel="noopener" aria-label="WhatsApp Kijani Fresh Farm"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.2 13.9c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7a11 11 0 01-4.5-4c-.3-.5-1.1-1.6-1.1-2.9s.7-1.9.9-2.2a1 1 0 01.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.3c-.1.1-.3.3-.1.6a7 7 0 002.7 2.4c.3.1.5.1.7-.1l.9-1.1c.2-.2.4-.2.6-.1l2 1c.3.1.5.2.5.3 0 .2 0 .8-.2 1.3z"/></svg><span>WhatsApp</span></a>
+  </div>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
